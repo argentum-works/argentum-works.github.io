@@ -22,9 +22,22 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+author:
+  name:           'Ryo Kajiwara'
+  url:            https://twitter.com/s01
+
+paginate:         5
+
+version:          1.0
+
+github:
+  repo:           https://github.com/argentum-works/argentum-works.github.io
+
 # Build settings
-markdown: kramdown
-theme: jekyll-theme-architect
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
 plugins:
   - jekyll-feed
 
