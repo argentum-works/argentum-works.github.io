@@ -1,12 +1,6 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Dependencies
+markdown:    kramdown
+highlighter: rouge
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -17,8 +11,10 @@ title: ArgentumWorks
 email: sylph01@argentum.works
 description: >- # this means to ignore newlines until "baseurl:"
   Your Digital "Silver Lining"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: s01
+github_username:  sylph01
+url: https://argentum.works
+baseurl: /
 
 author:
   name: 'Ryo Kajiwara'
@@ -31,25 +27,5 @@ version: 1.0
 github:
   repo: https://github.com/argentum-works/argentum-works.github.io
 
-url: https://argentum.works
-baseurl: /
-
-# Build settings
-# Dependencies
-markdown:    kramdown
-highlighter: rouge
-
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
