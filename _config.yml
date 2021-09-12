@@ -33,6 +33,9 @@ version:          1.0
 github:
   repo:           https://github.com/argentum-works/argentum-works.github.io
 
+url: https://argentum.works
+baseurl: /
+
 # Build settings
 # Dependencies
 markdown:         kramdown
