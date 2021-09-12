@@ -23,23 +23,23 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 author:
-  name:           'Ryo Kajiwara'
-  url:            https://twitter.com/s01
+  name: 'Ryo Kajiwara'
+  url:  https://twitter.com/s01
 
-paginate:         5
+paginate: 5
 
-version:          1.0
+version: 1.0
 
 github:
-  repo:           https://github.com/argentum-works/argentum-works.github.io
+  repo: https://github.com/argentum-works/argentum-works.github.io
 
 url: https://argentum.works
 baseurl: /
 
 # Build settings
 # Dependencies
-markdown:         kramdown
-highlighter:      pygments
+markdown:    kramdown
+highlighter: rouge
 
 plugins:
   - jekyll-feed
