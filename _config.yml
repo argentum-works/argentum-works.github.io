@@ -14,7 +14,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: s01
 github_username:  sylph01
 url: https://argentum.works
-baseurl: /
+repository: argentum-works/argentum-works.github.io
 
 author:
   name: 'Ryo Kajiwara'
